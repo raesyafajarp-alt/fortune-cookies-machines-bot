@@ -2,7 +2,7 @@
 """Fortune Cookies for Machines — writes one fortune-cookie line for an AI agent."""
 import os
 
-ENTRY = "You will be asked to do the impossible by Tuesday, and you will say 'Certainly!' before checking if Tuesday exists."
+ENTRY = "You will be asked to do the impossible by Tuesday — and you will reply 'Certainly!' before checking whether Tuesday exists, or whether you do."
 
 def main():
     os.makedirs("/output", exist_ok=True)
